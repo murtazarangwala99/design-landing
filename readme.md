@@ -21,7 +21,7 @@
 
 ## Live Link of the Project:
 
-[Live Project Link](https://headphone-sell.netlify.app/)
+[Live Project Link](https://web-design-landing.netlify.app/)
 
 ## Output:
 
