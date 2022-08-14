@@ -1,0 +1,48 @@
+@media screen and (max-width:855px){
+    body{
+        background: url(../images/backcover.svg) no-repeat;
+        background-position: 10vw -25vh;
+    }
+    .nav-items{
+        margin-left: 0;
+    }
+    .intro-section{
+        display: flex;
+        flex-direction: column; 
+        flex-direction: column-reverse; 
+        gap: 3rem;
+    }
+    .left-section{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .imgs-div{
+        width: 80%;
+        right: 0;
+        left: 5rem;
+    }
+    nav{
+        padding-bottom: 4rem;
+    }
+    .imgs-div img:last-child{
+        width: 100%;
+    }
+}
+@media screen and (max-width:740px) {
+    .vector-dot{
+        display: none;
+    }
+    .vector-img{
+        display: none;
+    }
+    .imgs-div{
+        width: 100%;
+        left: 0;
+    }
+    .left-section h1{
+        font-size: 3.8rem;
+        text-align: center;
+        padding: 30px;
+    }
+}
